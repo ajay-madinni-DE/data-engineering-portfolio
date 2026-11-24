@@ -5,21 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#faf9ff">
-  <meta name="description" content="Ajay Madinni - Data Engineer. Explore hands-on projects in ETL, data pipelines, Airflow, SQL, and analytics.">
+  <meta name="description" content="Ajay Madinni - Data Engineering Portfolio. Explore ETL pipelines, Apache Airflow, Kafka, Spark, machine learning, and real-time analytics.">
   <title>Ajay Madinni | Data Engineer</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <!-- Navigation -->
+
   <header class="site-header">
     <nav class="container nav" aria-label="Main navigation">
+
       <a class="brand" href="#home">
         <span class="brand-logo">AM</span>
-        <span><strong>Ajay Madinni</strong><small>Data Engineer</small></span>
+        <span>
+          <strong>Ajay Madinni</strong>
+          <small>Data Engineer</small>
+        </span>
       </a>
-      <button class="menu-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">☰</button>
+
+      <button class="menu-toggle"
+              aria-label="Toggle menu"
+              aria-controls="nav-links"
+              aria-expanded="false">☰</button>
+
       <div class="nav-links" id="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -28,250 +42,945 @@
         <a href="#approach">My Approach</a>
         <a href="#contact" class="nav-cta">Let's Connect ↗</a>
       </div>
+
     </nav>
   </header>
 
   <main>
+
+    <!-- Hero Section -->
+
     <section class="hero" id="home">
       <div class="container hero-grid">
+
         <div class="hero-copy">
-          <div class="eyebrow"><span>▤</span> DATA ENGINEERING PORTFOLIO</div>
+
+          <div class="eyebrow">
+            <span>▤</span> DATA ENGINEERING PORTFOLIO
+          </div>
+
           <p class="greeting">Hi, I'm</p>
+
           <h1>Ajay Madinni</h1>
+
           <h2>Data Engineer<span class="cursor"> |</span></h2>
+
           <p class="hero-description">
             Building reliable data pipelines, automating ETL workflows,
-            and transforming raw data into meaningful insights using
-            modern data engineering tools.
+            exploring real-time streaming and machine learning, and
+            transforming raw data into meaningful business insights
+            using modern data engineering technologies.
           </p>
+
           <div class="hero-actions">
-            <a class="button primary" href="#projects">Explore My Projects ↗</a>
-            <a class="button secondary" href="https://github.com/ajay-madinni-DE" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+
+            <a class="button primary" href="#projects">
+              Explore My Projects ↗
+            </a>
+
+            <a class="button secondary"
+               href="https://github.com/ajay-madinni-DE"
+               target="_blank"
+               rel="noopener noreferrer">
+              GitHub Profile ↗
+            </a>
+
           </div>
+
           <div class="hero-features">
-            <div><span class="feature-icon">▱</span><p><strong>ETL Pipelines</strong><small>Build & Automate</small></p></div>
-            <div><span class="feature-icon">▥</span><p><strong>Data Processing</strong><small>Clean & Transform</small></p></div>
-            <div><span class="feature-icon">⚙</span><p><strong>Workflow Automation</strong><small>Orchestrate & Monitor</small></p></div>
+
+            <div>
+              <span class="feature-icon">▱</span>
+              <p>
+                <strong>ETL Pipelines</strong>
+                <small>Build & Automate</small>
+              </p>
+            </div>
+
+            <div>
+              <span class="feature-icon">▥</span>
+              <p>
+                <strong>Real-Time Streaming</strong>
+                <small>Process & Analyze</small>
+              </p>
+            </div>
+
+            <div>
+              <span class="feature-icon">⚙</span>
+              <p>
+                <strong>Workflow Automation</strong>
+                <small>Orchestrate & Monitor</small>
+              </p>
+            </div>
+
           </div>
+
         </div>
 
-        <!-- CSS 3D-style pipeline illustration -->
-        <div class="hero-art" aria-label="Data engineering pipeline illustration">
+        <!-- Pipeline Illustration -->
+
+        <div class="hero-art"
+             aria-label="Data engineering pipeline illustration">
+
           <div class="art-halo"></div>
+
           <div class="source-row">
+
             <div class="source-device">
               <div class="device-screen">&lt;/&gt;</div>
               <div class="device-base"></div>
               <span>Source Code</span>
             </div>
+
             <div class="source-database">
               <div class="database-top"></div>
-              <div class="database-body"><span></span><span></span></div>
+              <div class="database-body">
+                <span></span>
+                <span></span>
+              </div>
               <span>Database</span>
             </div>
+
             <div class="source-cloud">
               <div class="cloud-shape">☁</div>
               <strong>↟ ↡</strong>
               <span>Cloud</span>
             </div>
+
           </div>
+
           <div class="art-stems">
-            <span></span><span></span><span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
+
           <div class="engine-core">
             <span class="core-icon">⚙</span>
             <span>Data<br>Engineering</span>
           </div>
+
           <div class="pipeline-branches">
-            <span></span><span></span><span></span><span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
+
           <div class="stage-grid">
-            <div class="stage"><span>▤</span><strong>Ingest</strong><small>Extract</small></div>
-            <div class="stage"><span>⚙</span><strong>Transform</strong><small>Clean & Validate</small></div>
-            <div class="stage"><span>▥</span><strong>Load</strong><small>Store</small></div>
-            <div class="stage"><span>▮▥</span><strong>Analyze</strong><small>Reports & Insights</small></div>
+
+            <div class="stage">
+              <span>▤</span>
+              <strong>Ingest</strong>
+              <small>Extract</small>
+            </div>
+
+            <div class="stage">
+              <span>⚙</span>
+              <strong>Transform</strong>
+              <small>Clean & Validate</small>
+            </div>
+
+            <div class="stage">
+              <span>▥</span>
+              <strong>Load</strong>
+              <small>Store</small>
+            </div>
+
+            <div class="stage">
+              <span>▮▥</span>
+              <strong>Analyze</strong>
+              <small>Reports & Insights</small>
+            </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
+
+    <!-- Statistics -->
 
     <section class="container">
+
       <div class="stats-strip">
-        <div><span>⌘</span><p><strong>03</strong><small>Featured Projects</small></p></div>
-        <div><span>◇</span><p><strong>Python & SQL</strong><small>Core Technologies</small></p></div>
-        <div><span>▤</span><p><strong>ETL</strong><small>Core Focus</small></p></div>
-        <div><span>☁</span><p><strong>Automation</strong><small>Data Workflows</small></p></div>
+
+        <div>
+          <span>⌘</span>
+          <p>
+            <strong>04</strong>
+            <small>Featured Projects</small>
+          </p>
+        </div>
+
+        <div>
+          <span>◇</span>
+          <p>
+            <strong>Python & SQL</strong>
+            <small>Core Technologies</small>
+          </p>
+        </div>
+
+        <div>
+          <span>▤</span>
+          <p>
+            <strong>ETL & Streaming</strong>
+            <small>Core Focus</small>
+          </p>
+        </div>
+
+        <div>
+          <span>☁</span>
+          <p>
+            <strong>Automation</strong>
+            <small>Data Workflows</small>
+          </p>
+        </div>
+
       </div>
+
     </section>
+
+    <!-- About Section -->
 
     <section class="section about-section" id="about">
+
       <div class="container about-grid">
+
         <div>
+
           <span class="section-kicker">01 / ABOUT ME</span>
-          <h2 class="section-title">Turning data into <em>business value.</em></h2>
-          <p>I'm Ajay Madinni, focused on building practical data engineering solutions using Python, SQL, relational databases, and workflow orchestration tools.</p>
-          <p>My project work covers banking transaction processing, ETL automation, data quality validation, and structured data storage. I enjoy understanding how data moves from source systems through transformation pipelines into reliable, usable datasets.</p>
-          <p>This portfolio showcases hands-on projects, technical implementation, and end-to-end problem solving.</p>
+
+          <h2 class="section-title">
+            Turning data into <em>business value.</em>
+          </h2>
+
+          <p>
+            I'm Ajay Madinni, focused on practical data engineering
+            solutions using Python, SQL, relational databases,
+            distributed processing, and workflow orchestration tools.
+          </p>
+
+          <p>
+            This portfolio covers banking transaction processing,
+            ETL automation, data quality validation, real-time event
+            streaming, machine learning-based fraud detection,
+            and structured analytical data storage.
+          </p>
+
+          <p>
+            The featured projects demonstrate how data moves from
+            source systems through ingestion, transformation,
+            validation, storage, and analytical workflows.
+          </p>
+
+          <p>
+            My portfolio showcases technical implementations,
+            collaborative learning projects, and end-to-end
+            engineering solutions.
+          </p>
+
         </div>
+
         <div class="about-tiles">
-          <div class="about-tile"><span>Py</span><strong>Python</strong><small>Data Processing & ETL</small></div>
-          <div class="about-tile"><span>▤</span><strong>SQL</strong><small>Querying & Transformation</small></div>
-          <div class="about-tile"><span>⚙</span><strong>Airflow</strong><small>Workflow Orchestration</small></div>
-          <div class="about-tile"><span>▣</span><strong>Docker</strong><small>Containerization</small></div>
+
+          <div class="about-tile">
+            <span>Py</span>
+            <strong>Python</strong>
+            <small>Data Processing & ETL</small>
+          </div>
+
+          <div class="about-tile">
+            <span>▤</span>
+            <strong>SQL</strong>
+            <small>Querying & Transformation</small>
+          </div>
+
+          <div class="about-tile">
+            <span>⚙</span>
+            <strong>Airflow</strong>
+            <small>Workflow Orchestration</small>
+          </div>
+
+          <div class="about-tile">
+            <span>▣</span>
+            <strong>Docker</strong>
+            <small>Containerization</small>
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
+    <!-- Featured Projects -->
+
     <section class="section projects-section" id="projects">
+
       <div class="container">
+
         <div class="section-kicker">02 / SELECTED WORK</div>
+
         <div class="section-heading">
+
           <div>
-            <h2 class="section-title">Featured <em>Projects.</em></h2>
-            <p>Practical implementations of data pipelines, automation, and analytics workflows.</p>
+            <h2 class="section-title">
+              Featured <em>Projects.</em>
+            </h2>
+
+            <p>
+              Practical implementations of data pipelines,
+              real-time streaming, automation, machine learning,
+              and analytics workflows.
+            </p>
           </div>
-          <a class="inline-link" href="https://github.com/ajay-madinni-DE" target="_blank" rel="noopener noreferrer">All repositories ↗</a>
+
+          <a class="inline-link"
+             href="https://github.com/ajay-madinni-DE"
+             target="_blank"
+             rel="noopener noreferrer">
+            All repositories ↗
+          </a>
+
         </div>
 
         <div class="project-grid">
+
+          <!-- Project 01 -->
+
           <article class="project-card">
+
             <div class="project-visual visual-one">
-              <div class="visual-labels"><span>PROJECT 01</span><span>ORCHESTRATION</span></div>
-              <div class="visual-flow"><span>CSV</span><b>→</b><span>PYTHON</span><b>→</b><span>POSTGRES</span></div>
+
+              <div class="visual-labels">
+                <span>PROJECT 01</span>
+                <span>ORCHESTRATION</span>
+              </div>
+
+              <div class="visual-flow">
+                <span>CSV</span>
+                <b>→</b>
+                <span>PYTHON</span>
+                <b>→</b>
+                <span>POSTGRES</span>
+              </div>
+
               <small>APACHE AIRFLOW · AUTOMATED ETL</small>
+
             </div>
+
             <div class="project-content">
-              <span class="category">DATA PIPELINES / AUTOMATION</span>
+
+              <span class="category">
+                DATA PIPELINES / AUTOMATION
+              </span>
+
               <h3>Automated Banking ETL with Apache Airflow</h3>
-              <p>A five-stage banking data pipeline that extracts CSV transactions, transforms records, loads PostgreSQL, validates data quality, and generates automated summary reports.</p>
+
+              <p>
+                A five-stage banking data pipeline that extracts CSV
+                transactions, transforms records, loads PostgreSQL,
+                validates data quality, and generates automated
+                summary reports.
+              </p>
+
               <div class="feature-list">
-                <span>✓ Airflow orchestration</span><span>✓ Duplicate prevention</span>
-                <span>✓ Data quality checks</span><span>✓ Automated CSV reports</span>
+                <span>✓ Airflow orchestration</span>
+                <span>✓ Duplicate prevention</span>
+                <span>✓ Data quality checks</span>
+                <span>✓ Automated CSV reports</span>
               </div>
-              <div class="tags"><span>Python</span><span>Airflow</span><span>PostgreSQL</span><span>Docker</span></div>
-              <a class="project-link" href="https://github.com/ajay-madinni-DE/automated-banking-etl-airflow" target="_blank" rel="noopener noreferrer">View GitHub Repository <span>↗</span></a>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>Airflow</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+              </div>
+
+              <a class="project-link"
+                 href="https://github.com/ajay-madinni-DE/automated-banking-etl-airflow"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                View GitHub Repository <span>↗</span>
+              </a>
+
             </div>
+
           </article>
 
+          <!-- Project 02 -->
+
           <article class="project-card">
+
             <div class="project-visual visual-two">
-              <div class="visual-labels"><span>PROJECT 02</span><span>DATA PROCESSING</span></div>
-              <div class="visual-flow"><span>BRONZE</span><b>→</b><span>SILVER</span><b>→</b><span>GOLD</span></div>
-              <small>BANKING TRANSACTION DATA PIPELINE</small>
-            </div>
-            <div class="project-content">
-              <span class="category">ETL / DATA QUALITY</span>
-              <h3>Banking Transactions ETL Pipeline</h3>
-              <p>An end-to-end banking data processing project with layered transformations, incremental loading, reconciliation checks, SQLite storage, and an interactive Streamlit dashboard.</p>
-              <div class="feature-list">
-                <span>✓ Bronze / Silver / Gold</span><span>✓ Incremental loading</span>
-                <span>✓ Data reconciliation</span><span>✓ Streamlit dashboard</span>
+
+              <div class="visual-labels">
+                <span>PROJECT 02</span>
+                <span>DATA PROCESSING</span>
               </div>
-              <div class="tags"><span>Python</span><span>Pandas</span><span>SQLite</span><span>Streamlit</span></div>
-              <a class="project-link" href="https://github.com/ajay-madinni-DE?tab=repositories" target="_blank" rel="noopener noreferrer">Explore GitHub Projects <span>↗</span></a>
+
+              <div class="visual-flow">
+                <span>BRONZE</span>
+                <b>→</b>
+                <span>SILVER</span>
+                <b>→</b>
+                <span>GOLD</span>
+              </div>
+
+              <small>BANKING TRANSACTION DATA PIPELINE</small>
+
             </div>
+
+            <div class="project-content">
+
+              <span class="category">
+                ETL / DATA QUALITY
+              </span>
+
+              <h3>Banking Transactions ETL Pipeline</h3>
+
+              <p>
+                An end-to-end banking data processing project with
+                layered transformations, incremental loading,
+                reconciliation checks, SQLite storage, and an
+                interactive Streamlit dashboard.
+              </p>
+
+              <div class="feature-list">
+                <span>✓ Bronze / Silver / Gold</span>
+                <span>✓ Incremental loading</span>
+                <span>✓ Data reconciliation</span>
+                <span>✓ Streamlit dashboard</span>
+              </div>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>SQLite</span>
+                <span>Streamlit</span>
+              </div>
+
+              <a class="project-link"
+                 href="https://github.com/ajay-madinni-DE?tab=repositories"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Explore GitHub Projects <span>↗</span>
+              </a>
+
+            </div>
+
           </article>
 
+          <!-- Project 03 -->
+
           <article class="project-card">
+
             <div class="project-visual visual-three">
-              <div class="visual-labels"><span>PROJECT 03</span><span>DATA ARCHITECTURE</span></div>
-              <div class="visual-flow"><span>INGEST</span><b>→</b><span>PROCESS</span><b>→</b><span>CURATE</span></div>
-              <small>SPARK · LAKEHOUSE CONCEPTS</small>
-            </div>
-            <div class="project-content">
-              <span class="category">BIG DATA / LAKEHOUSE</span>
-              <h3>Financial Data Lakehouse</h3>
-              <p>A project exploring financial data processing through lakehouse architecture, distributed transformations, and structured analytical data layers.</p>
-              <div class="feature-list">
-                <span>✓ Layered data architecture</span><span>✓ Spark processing</span>
-                <span>✓ Financial datasets</span><span>✓ Analytical data preparation</span>
+
+              <div class="visual-labels">
+                <span>PROJECT 03</span>
+                <span>DATA ARCHITECTURE</span>
               </div>
-              <div class="tags"><span>PySpark</span><span>SQL</span><span>Delta Lake</span></div>
-              <a class="project-link" href="https://github.com/ajay-madinni-DE?tab=repositories" target="_blank" rel="noopener noreferrer">Explore GitHub Projects <span>↗</span></a>
+
+              <div class="visual-flow">
+                <span>INGEST</span>
+                <b>→</b>
+                <span>PROCESS</span>
+                <b>→</b>
+                <span>CURATE</span>
+              </div>
+
+              <small>SPARK · LAKEHOUSE CONCEPTS</small>
+
             </div>
+
+            <div class="project-content">
+
+              <span class="category">
+                BIG DATA / LAKEHOUSE
+              </span>
+
+              <h3>Financial Data Lakehouse</h3>
+
+              <p>
+                A project exploring financial data processing through
+                lakehouse architecture, distributed transformations,
+                and structured analytical data layers.
+              </p>
+
+              <div class="feature-list">
+                <span>✓ Layered data architecture</span>
+                <span>✓ Spark processing</span>
+                <span>✓ Financial datasets</span>
+                <span>✓ Analytical data preparation</span>
+              </div>
+
+              <div class="tags">
+                <span>PySpark</span>
+                <span>SQL</span>
+                <span>Delta Lake</span>
+              </div>
+
+              <a class="project-link"
+                 href="https://github.com/ajay-madinni-DE?tab=repositories"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Explore GitHub Projects <span>↗</span>
+              </a>
+
+            </div>
+
           </article>
+
+          <!-- Project 04: Real-Time Fraud Detection -->
+
+          <article class="project-card">
+
+            <div class="project-visual visual-one">
+
+              <div class="visual-labels">
+                <span>PROJECT 04</span>
+                <span>REAL-TIME STREAMING</span>
+              </div>
+
+              <div class="visual-flow">
+                <span>KAFKA</span>
+                <b>→</b>
+                <span>SPARK</span>
+                <b>→</b>
+                <span>ML</span>
+              </div>
+
+              <small>STREAMING · FRAUD ANALYTICS</small>
+
+            </div>
+
+            <div class="project-content">
+
+              <span class="category">
+                STREAMING / MACHINE LEARNING
+              </span>
+
+              <h3>Real-Time AI Fraud Detection System</h3>
+
+              <p>
+                An end-to-end portfolio demonstration that processes
+                synthetic banking transactions using Apache Kafka
+                and Spark Structured Streaming, applies Random Forest
+                fraud classification, stores predictions in PostgreSQL,
+                and provides interactive fraud monitoring.
+              </p>
+
+              <div class="feature-list">
+                <span>✓ Real-time event processing</span>
+                <span>✓ ML-based risk classification</span>
+                <span>✓ Fraud investigation dashboard</span>
+                <span>✓ 33 automated tests passed</span>
+                <span>✓ PostgreSQL data persistence</span>
+                <span>✓ Rule-based investigation assistant</span>
+              </div>
+
+              <div class="tags">
+                <span>Python</span>
+                <span>Kafka</span>
+                <span>PySpark</span>
+                <span>Scikit-learn</span>
+                <span>PostgreSQL</span>
+                <span>Docker</span>
+                <span>Streamlit</span>
+                <span>Pytest</span>
+              </div>
+
+              <a class="project-link"
+                 href="https://github.com/ajay-madinni-DE/real-time-fraud-detection-ai"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                View GitHub Repository <span>↗</span>
+              </a>
+
+            </div>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
+
+    <!-- Skills Section -->
 
     <section class="section" id="skills">
+
       <div class="container">
-        <span class="section-kicker">03 / TECHNICAL TOOLKIT</span>
-        <h2 class="section-title">Skills & <em>Technologies.</em></h2>
-        <p class="section-intro">Technologies used across my projects and technical learning.</p>
+
+        <span class="section-kicker">
+          03 / TECHNICAL TOOLKIT
+        </span>
+
+        <h2 class="section-title">
+          Skills & <em>Technologies.</em>
+        </h2>
+
+        <p class="section-intro">
+          Technologies used across the featured projects
+          and technical learning.
+        </p>
+
         <div class="skills-grid">
-          <div class="skill-card"><span class="skill-symbol">⌘</span><h3>Programming</h3><p>Languages for data processing and automation.</p><div class="tags"><span>Python</span><span>SQL</span></div></div>
-          <div class="skill-card"><span class="skill-symbol">▤</span><h3>Databases</h3><p>Structured storage and relational data systems.</p><div class="tags"><span>PostgreSQL</span><span>SQLite</span></div></div>
-          <div class="skill-card"><span class="skill-symbol">◇</span><h3>Data Engineering</h3><p>Building, transforming, and orchestrating pipelines.</p><div class="tags"><span>ETL Pipelines</span><span>Apache Airflow</span><span>Pandas</span><span>PySpark</span></div></div>
-          <div class="skill-card"><span class="skill-symbol">⚙</span><h3>Tools & Platforms</h3><p>Development, containerization, and visualization.</p><div class="tags"><span>Docker</span><span>Git</span><span>GitHub</span><span>Streamlit</span></div></div>
+
+          <div class="skill-card">
+
+            <span class="skill-symbol">⌘</span>
+
+            <h3>Programming</h3>
+
+            <p>
+              Languages for data processing, transformation,
+              and automation.
+            </p>
+
+            <div class="tags">
+              <span>Python</span>
+              <span>SQL</span>
+            </div>
+
+          </div>
+
+          <div class="skill-card">
+
+            <span class="skill-symbol">▤</span>
+
+            <h3>Databases</h3>
+
+            <p>
+              Structured storage, relational databases,
+              and analytical data systems.
+            </p>
+
+            <div class="tags">
+              <span>PostgreSQL</span>
+              <span>SQLite</span>
+            </div>
+
+          </div>
+
+          <div class="skill-card">
+
+            <span class="skill-symbol">◇</span>
+
+            <h3>Data Engineering</h3>
+
+            <p>
+              Building, transforming, validating,
+              and orchestrating data pipelines.
+            </p>
+
+            <div class="tags">
+              <span>ETL Pipelines</span>
+              <span>Apache Airflow</span>
+              <span>Pandas</span>
+              <span>PySpark</span>
+              <span>Delta Lake</span>
+            </div>
+
+          </div>
+
+          <div class="skill-card">
+
+            <span class="skill-symbol">↯</span>
+
+            <h3>Real-Time Streaming</h3>
+
+            <p>
+              Event ingestion, distributed stream processing,
+              and real-time transaction analytics.
+            </p>
+
+            <div class="tags">
+              <span>Apache Kafka</span>
+              <span>Apache Spark</span>
+              <span>Structured Streaming</span>
+              <span>JSON</span>
+            </div>
+
+          </div>
+
+          <div class="skill-card">
+
+            <span class="skill-symbol">◎</span>
+
+            <h3>Machine Learning</h3>
+
+            <p>
+              Predictive classification, feature preparation,
+              model evaluation, and fraud risk scoring.
+            </p>
+
+            <div class="tags">
+              <span>Scikit-learn</span>
+              <span>Random Forest</span>
+              <span>Joblib</span>
+              <span>NumPy</span>
+            </div>
+
+          </div>
+
+          <div class="skill-card">
+
+            <span class="skill-symbol">⚙</span>
+
+            <h3>Tools & Platforms</h3>
+
+            <p>
+              Development, containerization,
+              automated testing, and visualization.
+            </p>
+
+            <div class="tags">
+              <span>Docker</span>
+              <span>Docker Compose</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Streamlit</span>
+              <span>Plotly</span>
+              <span>Pytest</span>
+            </div>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
+
+    <!-- Engineering Approach -->
 
     <section class="section approach-section" id="approach">
+
       <div class="container">
-        <span class="section-kicker">04 / ENGINEERING APPROACH</span>
-        <h2 class="section-title">How I approach <em>data.</em></h2>
-        <p class="section-intro">From raw source files to trusted datasets and useful insights.</p>
+
+        <span class="section-kicker">
+          04 / ENGINEERING APPROACH
+        </span>
+
+        <h2 class="section-title">
+          How I approach <em>data.</em>
+        </h2>
+
+        <p class="section-intro">
+          From raw source files and streaming events
+          to trusted datasets and useful insights.
+        </p>
+
         <div class="approach-grid">
-          <div class="approach-card"><span>01</span><div>↓</div><h3>Ingest</h3><p>Bring data from source systems into a structured processing workflow.</p></div>
-          <div class="approach-card"><span>02</span><div>⚙</div><h3>Transform</h3><p>Clean, standardize, validate, and prepare data for downstream use.</p></div>
-          <div class="approach-card"><span>03</span><div>▤</div><h3>Store</h3><p>Load curated records into reliable database and analytical layers.</p></div>
-          <div class="approach-card"><span>04</span><div>▥</div><h3>Deliver</h3><p>Automate execution, monitor quality, and produce useful reports.</p></div>
+
+          <div class="approach-card">
+
+            <span>01</span>
+
+            <div>↓</div>
+
+            <h3>Ingest</h3>
+
+            <p>
+              Bring batch data and real-time events from source
+              systems into structured processing workflows.
+            </p>
+
+          </div>
+
+          <div class="approach-card">
+
+            <span>02</span>
+
+            <div>⚙</div>
+
+            <h3>Transform</h3>
+
+            <p>
+              Clean, standardize, validate, enrich,
+              and prepare data for downstream use.
+            </p>
+
+          </div>
+
+          <div class="approach-card">
+
+            <span>03</span>
+
+            <div>▤</div>
+
+            <h3>Store</h3>
+
+            <p>
+              Load curated records and analytical predictions
+              into reliable databases and data layers.
+            </p>
+
+          </div>
+
+          <div class="approach-card">
+
+            <span>04</span>
+
+            <div>▥</div>
+
+            <h3>Deliver</h3>
+
+            <p>
+              Automate execution, validate data quality,
+              and deliver useful dashboards and reports.
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
+
+    <!-- Contact Section -->
 
     <section class="section" id="contact">
+
       <div class="container">
+
         <div class="contact-panel">
-          <span class="section-kicker">05 / CONNECT</span>
-          <h2>Let's build something <em>meaningful.</em></h2>
-          <p>Interested in my data engineering projects or technical work? Explore my repositories and connect with me professionally.</p>
+
+          <span class="section-kicker">
+            05 / CONNECT
+          </span>
+
+          <h2>
+            Let's build something <em>meaningful.</em>
+          </h2>
+
+          <p>
+            Interested in data engineering, real-time analytics,
+            machine learning, or technical projects?
+            Explore my repositories and connect with me professionally.
+          </p>
+
           <div class="hero-actions">
-            <a class="button primary" href="https://github.com/ajay-madinni-DE" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a>
-            <a class="button secondary" href="https://www.linkedin.com/in/ajay-m-9b5a9b3b4/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+            <a class="button primary"
+               href="https://github.com/ajay-madinni-DE"
+               target="_blank"
+               rel="noopener noreferrer">
+              Explore GitHub ↗
+            </a>
+
+            <a class="button secondary"
+               href="https://www.linkedin.com/in/ajay-m-9b5a9b3b4/"
+               target="_blank"
+               rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+  <!-- Footer -->
+
   <footer class="footer">
+
     <div class="container footer-content">
-      <div><strong>Ajay Madinni<span>.</span></strong><small>Data Engineer · Portfolio</small></div>
+
+      <div>
+        <strong>Ajay Madinni<span>.</span></strong>
+        <small>Data Engineer · Portfolio</small>
+      </div>
+
       <p>Designed & built with HTML and CSS.</p>
+
       <a href="#home">Back to top ↑</a>
+
     </div>
+
   </footer>
 
+  <!-- Navigation and Animation Scripts -->
+
   <script>
+
     const menu = document.querySelector(".menu-toggle");
     const links = document.querySelector(".nav-links");
+
     menu.addEventListener("click", () => {
+
       const open = links.classList.toggle("open");
-      menu.setAttribute("aria-expanded", String(open));
+
+      menu.setAttribute(
+        "aria-expanded",
+        String(open)
+      );
+
     });
+
     document.querySelectorAll(".nav-links a").forEach(a => {
+
       a.addEventListener("click", () => {
+
         links.classList.remove("open");
-        menu.setAttribute("aria-expanded", "false");
+
+        menu.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+
       });
+
     });
-    if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+
+    if (
+      "IntersectionObserver" in window &&
+      !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+
       const observer = new IntersectionObserver(entries => {
+
         entries.forEach(entry => {
+
           if (entry.isIntersecting) {
+
             entry.target.classList.add("visible");
+
             observer.unobserve(entry.target);
+
           }
+
         });
-      }, {threshold: 0.08});
-      document.querySelectorAll(".project-card,.skill-card,.approach-card").forEach(el => {
-        el.classList.add("reveal");
-        observer.observe(el);
+
+      }, {
+        threshold: 0.08
       });
+
+      document.querySelectorAll(
+        ".project-card,.skill-card,.approach-card"
+      ).forEach(el => {
+
+        el.classList.add("reveal");
+
+        observer.observe(el);
+
+      });
+
     }
+
   </script>
+
 </body>
 </html>
